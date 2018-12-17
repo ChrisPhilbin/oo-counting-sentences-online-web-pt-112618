@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    count = nil
+    count = 0
     self.end_with?("?") ? count += 1 : count = nil
   end
 end
